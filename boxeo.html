@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Objetos de Boxeo</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .card p {
+            margin: 5px 0;
+        }
+        .buy-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Objetos de Boxeo</h1>
+    <div class="container">
+        <div class="card">
+            <img src="guantes_boxeo.jpg" alt="Guantes de Boxeo">
+            <h2>Guantes de Boxeo</h2>
+            <p>Precio: $125.000</p>
+            <p>peso : 8 oz, 10 oz, 12 oz, 14 oz, 16 oz, 18 oz, 20 oz</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="saco_boxeo.jpg" alt="Saco de Boxeo">
+            <h2>Saco de Boxeo</h2>
+            <p>Precio: $100.000</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="protector_bucal.jpg" alt="Protector Bucal">
+            <h2>Protector Bucal</h2>
+            <p>Precio: $45.000</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    <a href="deporte.html"> Volver al Menú de deporte</a>
+</body>
+</html>

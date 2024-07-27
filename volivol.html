@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Objetos de Voleibol</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .card p {
+            margin: 5px 0;
+        }
+        .buy-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Objetos de Voleibol</h1>
+    <div class="container">
+        <div class="card">
+            <img src="balon_voleibol.jpg" alt="Balón de Voleibol">
+            <h2>Balón de Voleibol</h2>
+            <p>Precio: $1120.000</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="rodilleras.jpg" alt=" Rodilleras">
+            <h2>Rodilleras</h2>
+            <p>Precio: $95.000</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card">
+            <img src="red_voleibol.jpg" alt="camiseta de Voleibol">
+            <h2>camiseta de Voleibol</h2>
+            <p>Precio: $100.000</p>
+            <p>Tallas: S, M, L, XL</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+    <a href="deporte.html"> Volver al Menú de deporte</a>
+</body>
+</html>
